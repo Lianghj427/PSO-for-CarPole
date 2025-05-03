@@ -10,6 +10,10 @@ This repository provides a complete implementation of solving the OpenAI Gym Car
 
 ### Environment Setup
 ```bash
+# Create a virtual environment (optional)
+conda create -n pso_cartpole python=3.6
+conda activate pso_cartpole
+
 # Install dependencies
 pip install -r requirements.txt
 ```
